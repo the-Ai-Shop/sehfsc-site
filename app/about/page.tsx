@@ -74,11 +74,11 @@ export default function AboutPage() {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
             {[
-              { name: 'Lindsey Smith', title: 'President', photo: '/images/lindsey.jpg', video: 'https://youtu.be/xU7b7Hsbr-g' },
-              { name: 'Bill Mullins', title: 'Vice President', photo: '/images/bill.jpg' },
-              { name: 'Mark Dale', title: 'Treasurer', photo: '/images/mark.jpg' },
-              { name: 'Gabe Cohan', title: 'Secretary', photo: '/images/gabe.jpg' },
-              { name: 'Peter Brandt', title: 'Committee Coordinator', photo: '/images/peter.jpg' },
+              { name: 'Lindsey Smith', title: 'President', photo: '/images/lindsey.webp', video: 'https://youtu.be/xU7b7Hsbr-g' },
+              { name: 'Bill Mullins', title: 'Vice President', photo: '/images/bill.webp' },
+              { name: 'Mark Dale', title: 'Treasurer', photo: '/images/mark.webp' },
+              { name: 'Gabe Cohan', title: 'Secretary', photo: '/images/gabe.webp' },
+              { name: 'Peter Brandt', title: 'Committee Coordinator', photo: '/images/peter.webp' },
             ].map((member) => (
               <div key={member.name} className="flex flex-col items-center text-center">
                 <div className="relative w-[150px] h-[150px] mb-3">

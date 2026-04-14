@@ -20,7 +20,7 @@ export default function HomePage() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: 'url(/images/fire-safety.jpg)',
+            backgroundImage: 'url(/images/fire-safety.webp)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -168,21 +168,21 @@ export default function HomePage() {
                 href: '/prevention',
                 desc: 'Defensible space zones, home hardening, vent protection, and fencing recommendations. Zone 0 is the starting point.',
                 action: 'Start with Zone 0',
-                bg: '/images/prevention.jpg',
+                bg: '/images/prevention.webp',
               },
               {
                 label: 'Preparation',
                 href: '/preparation',
                 desc: 'Know your evacuation zone (0850, 0852, 0854, 0920, or 0921), build your go-bag, and have a communications plan ready.',
                 action: 'Find Your Zone',
-                bg: '/images/preparation.jpg',
+                bg: '/images/preparation.webp',
               },
               {
                 label: 'Evacuation',
                 href: '/evacuation',
                 desc: 'Understand the Hi-Lo siren, Alert San Diego notifications, and your six-step action plan when an order comes.',
                 action: 'Know Your Routes',
-                bg: '/images/evacuation.jpg',
+                bg: '/images/evacuation.webp',
               },
             ].map((box) => (
               <Link
