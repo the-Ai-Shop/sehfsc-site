@@ -1,0 +1,100 @@
+<!--
+  OG Image Generator for SEHFSC
+  ==============================
+
+  HOW TO USE:
+  1. Open this file in a browser (Chrome recommended)
+  2. The card renders at exactly 1200x630 pixels
+  3. Take a screenshot of ONLY the card area:
+     - macOS: Cmd+Shift+4, then drag to select the card
+     - Or use Chrome DevTools: Inspect > select the #og element >
+       right-click node > "Capture node screenshot"
+  4. Save as: public/images/og-image.png
+  5. The site metadata already references /images/og-image.png
+
+  NOTE: Most social platforms (Twitter, Facebook, LinkedIn, iMessage)
+  do NOT support SVG for og:image. A PNG fallback is required.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SEHFSC OG Image Generator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .instructions {
+      color: #999;
+      font-size: 14px;
+      margin-bottom: 24px;
+      text-align: center;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+    #og {
+      width: 1200px;
+      height: 630px;
+      background: #0f2e0f;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .title {
+      color: #ffffff;
+      font-size: 52px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.3;
+      margin-bottom: 24px;
+    }
+    .subtitle {
+      color: #d1d5db;
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .bottom-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 40px;
+      background: #228B22;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .bottom-bar span {
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+  <p class="instructions">
+    Right-click the card below and choose "Inspect", then right-click the
+    <code>#og</code> node in DevTools and select "Capture node screenshot".
+    Save the result as <strong>public/images/og-image.png</strong>.
+  </p>
+  <div id="og">
+    <div class="title">San Elijo Hills<br>Fire Safe Council</div>
+    <div class="subtitle">Wildfire Preparedness for San Elijo Hills, San Marcos CA</div>
+    <div class="bottom-bar">
+      <span>sehfsc.org</span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+export const brand = {
+  name: 'San Elijo Hills Fire Safe Council',
+  shortName: 'SEH FSC',
+  acronym: 'SEHFSC',
+  email: 'info@sehfsc.org',
+  address: '310 South Twin Oaks Valley Road #107-238',
+  city: 'San Marcos',
+  state: 'CA',
+  zip: '92078',
+  fullAddress: '310 South Twin Oaks Valley Road #107-238, San Marcos, CA 92078',
+  url: 'https://sehfsc.org',
+  taxId501c3: true,
+  social: {
+    facebook: 'https://facebook.com/sehfsc',
+    instagram: 'https://instagram.com/sehfsc',
+    youtube: 'https://youtube.com/@SEHFSC',
+    linktree: 'https://linktr.ee/sehfsc',
+  },
+  board: [
+    { name: 'Lindsey Smith', title: 'President' },
+    { name: 'Bill Mullins', title: 'Vice President' },
+    { name: 'Mark Dale', title: 'Treasurer' },
+    { name: 'Gabe Cohan', title: 'Secretary' },
+    { name: 'Peter Brandt', title: 'Committee Coordinator' },
+  ],
+  committees: ['Projects', 'Education & Outreach', 'Tech & Communications', 'Fundraising'],
+  evacuationZones: ['0850', '0852', '0854', '0920', '0921'],
+};

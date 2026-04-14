@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f2e0f"/>
+  <rect y="590" width="1200" height="40" fill="#228B22"/>
+  <text x="600" y="260" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold" fill="#ffffff">San Elijo Hills</text>
+  <text x="600" y="325" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold" fill="#ffffff">Fire Safe Council</text>
+  <text x="600" y="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#d1d5db">Wildfire Preparedness for San Elijo Hills, San Marcos CA</text>
+  <text x="600" y="618" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">sehfsc.org</text>
+</svg>

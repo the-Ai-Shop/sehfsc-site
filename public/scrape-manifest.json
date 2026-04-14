@@ -1,0 +1,46 @@
+{
+  "url": "https://sehfsc.org",
+  "name": "SEHFSC",
+  "scrapedAt": "2026-04-08T00:00:00.000Z",
+  "colors": {
+    "bg": "#ffffff",
+    "surface": "#f5f4f0",
+    "border": "#d4d0c4",
+    "fg": "#000000",
+    "muted": "#6b6b6b",
+    "accent": "#228B22",
+    "accentBright": "#2ea82e"
+  },
+  "fonts": {
+    "display": null,
+    "body": null,
+    "googleFontsImport": null
+  },
+  "visualRegister": "civic/municipal nonprofit — forest green primary, clean white surfaces, utilitarian layout, government-adjacent trust aesthetic",
+  "images": [
+    { "path": "public/images/SEHFSC_logo.png", "role": "logo", "description": "SEHFSC organization logo" },
+    { "path": "public/images/fire-safety.jpg", "role": "hero", "description": "Hero background image" },
+    { "path": "public/images/prevention.jpg", "role": "background", "description": "Prevention info box background" },
+    { "path": "public/images/preparation.jpg", "role": "background", "description": "Preparation info box background" },
+    { "path": "public/images/evacuation.jpg", "role": "background", "description": "Evacuation info box background" },
+    { "path": "public/images/sanelijo_sanmarcos_ca.png", "role": "other", "description": "Map of San Elijo Hills and San Marcos, CA" }
+  ],
+  "navigation": [
+    "Home → /",
+    "About Us → /about",
+    "Programs → /programs",
+    "Resources → /resources",
+    "News & Updates → /news",
+    "Contact → /contact",
+    "Firewise Reporting → /firewise",
+    "Wildfire Protection Plans → /resources#wildfire-plans",
+    "Today's Fire Weather → /fire-weather",
+    "Current Active Fires → /active-fires",
+    "Events → /events",
+    "Donate → /donate"
+  ],
+  "pages": ["/", "/about", "/programs", "/resources", "/news", "/events", "/contact", "/donate", "/firewise", "/fire-weather", "/active-fires", "/prevention", "/preparation", "/evacuation", "/policies"],
+  "platformDetected": "static-html",
+  "imageSourceStrategy": "html-parse",
+  "imageNote": "Images referenced by filename — originals must be placed in public/images/. Obtained via WebFetch content extraction."
+}
